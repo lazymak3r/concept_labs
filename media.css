@@ -35,7 +35,8 @@
     }
 
     .about_wrapper .about_top_section .about_top_info_picture,
-    .about_wrapper .about_middle_section .about_middle_info_picture {
+    .about_wrapper .about_middle_section .about_middle_info_picture,
+    .about_wrapper .about_bottom_section .about_bottom_picture {
         margin-left: 0;
         padding: 0 30px;
         margin-top: 16px;
@@ -45,6 +46,9 @@
     .about_wrapper .about_middle_text {
         border-right: none;
         margin-top: 16px;
+        padding: 0;
+        min-height: auto;
+        margin-bottom: 16px;
     }
 
     .about_wrapper .about_middle_text > span {
@@ -52,6 +56,42 @@
         max-width: initial;
         margin: 0;
         text-align: justify;
+    }
+
+    .about_wrapper .about_bottom_section {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .about_wrapper .about_bottom_section .about_bottom_section_right {
+        align-items: center;
+        text-align: center;
+        height: auto;
+        margin-bottom: 16px;
+        padding: 0 30px;
+    }
+
+    .about_wrapper .about_bottom_section .about_bottom_section_right span {
+        max-width: initial;
+        text-align: justify;
+        margin-left: 0;
+    }
+
+    .about_wrapper .about_bottom_text > span {
+        text-align: justify;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    .about_wrapper .about_bottom_container {
+        padding: 0;
+    }
+
+    .about_wrapper .about_bottom_link {
+        width: 100%;
+        min-width: initial;
+        margin-bottom: 16px;
     }
 }
 
@@ -109,6 +149,22 @@
 
     .small_header_container .small_header_links_block .small_header_links .header_link:hover a {
         color: #FFFFFF;
+    }
+
+    .footer_info_container {
+        margin-top: 30px;
+        flex-direction: column;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        box-shadow: 0 -2px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .footer_info_container > * {
+        margin-bottom: 16px;
+    }
+
+    .footer_info_container .footer_links_block .footer_links{
+        flex-wrap: wrap;
     }
 
 }
