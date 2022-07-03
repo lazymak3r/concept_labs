@@ -26,6 +26,16 @@
 }
 
 @media screen and (max-width: 1024px) {
+    .new2_wrapper .new2_middle{
+        flex-direction: column;
+    }
+    .new2_wrapper .new2_middle .new2_middle_text{
+        width: 100%;
+        max-width: initial;
+    }
+    .new2_wrapper .new2_middle .new2_middle_image{
+        margin: 0;
+    }
     .main_wrapper .main_bottom_oneSection .main_bottom_helper .help_right .label,
     .main_wrapper .main_bottom_oneSection .main_bottom_helper .help_right .button{
         width: 100%;

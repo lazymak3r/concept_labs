@@ -1178,6 +1178,9 @@
     height: 100%;
     margin-top: 13px;
 }
+.new2_wrapper .new2_middle .new2_middle_image{
+    margin-left: 40px;
+}
 .new2_wrapper .new2_middle .new2_middle_text > span {
     font-family: 'Raleway',sans-serif;
     font-style: normal;
@@ -1186,6 +1189,11 @@
     line-height: 19px;
     color: #535353;
 }
+.new2_wrapper .new2_middle .new2_middle_text > span > span{
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
 .new2_wrapper .new2_middle > img{
     max-width: 670px;
     width: 100%;
@@ -1206,6 +1214,11 @@
     font-size: 16px;
     line-height: 19px;
     color: #535353;
+}
+
+.new2_wrapper .new2_bottom > span > span{
+    display: inline-block;
+    margin-bottom: 30px;
 }
 
 /*new_2*/
