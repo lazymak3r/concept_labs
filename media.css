@@ -5,6 +5,9 @@
 }
 
 @media screen and (max-width: 1444px) {
+    .services2_wrapper .services2_bottom .services2_bottom_img_block .services2_bottom_img .services2_bottom_img_text{
+        width: auto;
+    }
     .about_wrapper .about_top_section {
         padding-left: 30px;
     }
@@ -23,9 +26,70 @@
         align-self: flex-start;
         margin: 0;
     }
+
+    .services2_wrapper .services2_bottom .services2_bottom_img_block .services2_bottom_img:nth-child(4){
+        display: none;
+    }
 }
 
 @media screen and (max-width: 1024px) {
+    .services2_wrapper .services2_bottom .services2_bottom_title{
+        margin: 30px 0 0 0;
+    }
+    .services2_wrapper .services2_bottom .services2_bottom_img_block{
+        padding: 0;
+    }
+    .services2_wrapper .services2_bottom .services2_bottom_img_block .services2_bottom_img:nth-child(2){
+        width: 100%;
+        max-width: initial;
+    }
+    .services2_wrapper .services2_bottom .services2_bottom_img_block .services2_bottom_img:nth-child(3){
+        display: none;
+    }
+    .services2_wrapper .services2_middle .services2_middle_info{
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 16px;
+    }
+    .services2_wrapper .services2_middle .services2_middle_info .services2_black{
+        width: 100%;
+    }
+    .services2_wrapper .services2_middle{
+        border: none;
+        flex-direction: column-reverse;
+        margin-top: 16px;
+        padding: 0;
+    }
+
+    .services2_wrapper .services2_middle .services2_middle_img{
+        width: 100%;
+        transform: none;
+    }
+    .services2_wrapper .services2_wrapper_title{
+        justify-content: flex-start;
+    }
+    .services2_wrapper .services2_wrapper_title .services2{
+        width: auto;
+    }
+    .services2_wrapper .services2_wrapper_title> div{
+        width: 0 !important;
+        margin: 0 !important;
+    }
+    .services2_wrapper .services2_bg_img .services2_text1 .services2_white{
+        width: 100%;
+    }
+    .services2_wrapper .services2_bg_img .services2_1_img{
+        transform: none;
+        width: 100%;
+        margin: 16px 0 0 0 ;
+    }
+    .services2_wrapper .services2_bg_img{
+        height: auto;
+    }
+    .services2_wrapper .services2_bg_img .container{
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
     .projects_wrapper .projects_bg_wrapper{
         height: auto;
     }
@@ -355,6 +419,12 @@
 }
 
 @media screen and (max-width: 768px) {
+    .services2_wrapper .services2_wrapper_title .services2,
+    .services2_wrapper .services2_bottom .services2_bottom_title .heading-1{
+        font-size: 20px;
+    }{
+        font-size: 20px;
+    }
     .main_wrapper .main_header_background .main-header .main_header_middle .header_middle_title{
         font-size: 20px;
         line-height: initial;
