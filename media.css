@@ -4,6 +4,12 @@
     }
 }
 
+@media screen and (max-width: 1750px){
+    .project2_wrapper .project2_container .project2_bottom_section_wrapper .project2_bottom_slide_img:nth-child(5){
+        display: none;
+    }
+}
+
 @media screen and (max-width: 1444px) {
     .services2_wrapper .services2_bottom .services2_bottom_img_block .services2_bottom_img .services2_bottom_img_text{
         width: auto;
@@ -29,6 +35,22 @@
 
     .services2_wrapper .services2_bottom .services2_bottom_img_block .services2_bottom_img:nth-child(4){
         display: none;
+    }
+
+    .project2_wrapper .project2_container{
+        margin: 0;
+        padding: 0 60px ;
+    }
+    .project2_wrapper .project2_container .project2_top,
+    .project2_wrapper .project2_container .project2_middle .red-line > div
+    {
+        margin: 0 !important;
+    }
+    .project2_wrapper .project2_container .project2_bottom_section_wrapper .project2_bottom_slide_img:nth-child(4){
+        display: none;
+    }
+    .project2_wrapper .project2_container .project2_bottom{
+      padding: 55px 0 0 100px;
     }
 }
 
@@ -416,9 +438,105 @@
         margin-bottom: 16px;
         margin-left: 30px;
     }
+
+
+    .project2_wrapper .project2_container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0 !important;
+        padding: 0 30px;
+    }
+    .project2_wrapper .project2_container .project2_top{
+        width: 100%;
+        border: none;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .project2_wrapper .project2_container .project2_top .top_section1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .project2_wrapper .project2_container .project2_top .top_section1 > span {
+        max-width: initial;
+        width: 100%;
+        padding: 0;
+    }
+    .project2_wrapper .project2_top .project2_title{
+        max-width: initial;
+        width: 100%;
+        margin: 0 !important;
+        padding: 16px 0;
+    }
+    .project2_wrapper .project2_container .project2_top .top_section1 .red_cuadro_wrapper .red_cuadro {
+        background: none;
+    }
+    .project2_wrapper .project2_container .project2_top .top_section1 .red_cuadro_wrapper .project2_top_picture{
+        width: 100%;
+        max-width: initial;
+    }
+    .project2_wrapper .project2_container .project2_top .top_section1 .red_cuadro_wrapper .project2_top_picture img{
+        margin: 0;
+    }
+    .project2_wrapper .project2_container .project2_middle {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .project2_wrapper .project2_container .project2_middle .project2_middle_picture{
+        width: 100%;
+        max-width: initial;
+    }
+
+    .project2_wrapper .project2_container .project2_middle > span{
+        max-width: initial;
+        width: 100%;
+        padding: 30px 0;
+    }
+    .project2_wrapper .project2_container .project2_bottom{
+        display: flex;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+    }
+    .project2_wrapper .project2_container .project2_bottom > span{
+        width: 100%;
+        max-width: initial;
+        padding-bottom: 30px;
+    }
+    .project2_wrapper .project2_container .project2_bottom .project2_bottom_picture{
+        width: 100%;
+        max-width: initial;
+        margin: 0;
+    }
+    .project2_wrapper .project2_container .project2_bottom_section_wrapper{
+        border: none;
+    }
+    .project2_wrapper .project2_container .project2_bottom_section_wrapper .bottom_block{
+        width: 100%;
+        display: flex;
+        padding: 0 !important;
+    }
+    .project2_wrapper .project2_container .project2_bottom_section_wrapper .bottom_block .project2_left_arrow{
+        padding-left: 0 !important;
+    }
+    .project2_wrapper .project2_container .project2_bottom_section_wrapper .project2_bottom_slide_img:nth-child(2){
+        max-width: initial;
+        width: 100%;
+        min-width: 200px;
+    }
+    .project2_wrapper .project2_container .project2_bottom_section_wrapper .project2_bottom_slide_img:nth-child(3){
+        display: none;
+    }
 }
 
 @media screen and (max-width: 768px) {
+    .project2_wrapper .project2_container .project2_top .project2_title .heading-1{
+        font-size: 20px;
+    }
     .services2_wrapper .services2_wrapper_title .services2,
     .services2_wrapper .services2_bottom .services2_bottom_title .heading-1{
         font-size: 20px;
