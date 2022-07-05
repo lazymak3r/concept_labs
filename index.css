@@ -2,13 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-weight: 400;
+    font-weight: 700;
     font-family: Raleway, sans-serif;
 }
 
 .heading-1{
     font-size: 50px;
-    font-weight: 700;
+    font-weight: 900;
     color: #000000;
     text-transform: uppercase;
 }
@@ -895,6 +895,22 @@
 
                         /*About*/
 
+                        /*Services */
+
+.services_wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+                        /*Services */
+
+
                         /*Services 2*/
 
 .services2_wrapper{
@@ -1322,6 +1338,87 @@
         /*Projects 2*/
 
 
+            /*New*/
+
+.new_wrapper{
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+.new_wrapper .container .new_title{
+    max-width: 1070px;
+    padding-left: 98px;
+    border-right:2px solid #991B1F;
+}
+.new_wrapper .container .new_top_section{
+    display: flex;
+}
+.new_wrapper .container .new_top_section .new_top_info{
+    display: flex;
+    flex-direction: column;
+    padding: 95px 0 0 98px;
+}
+.new_wrapper .container .new_top_section .new_top_info > h2 {
+    font-family: "Raleway",sans-serif;
+    font-size: 25px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #000000;
+    max-width: 380px;
+    width: 100%;
+}
+.new_wrapper .container .new_top_section .new_top_info > span {
+    padding-top: 17px;
+    max-width: 670px;
+    width: 100%;
+}
+.new_wrapper .container .new_top_section .new_top_info .more_link{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+.new_wrapper .container .new_top_section .new_top_info .more_link > a{
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+    padding-right: 5px;
+}
+.new_wrapper .container .new_top_section .new_top_picture{
+    max-width: 598px;
+    width: 100%;
+    height: 428px;
+    padding-left: 30px;
+    filter: drop-shadow(0px 4px 16px rgba(0, 0, 0, 0.5));
+}
+.new_wrapper .container .new_top_section .new_top_picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.new_wrapper .container .reversed{
+    padding: 60px 0 0 0;
+    flex-direction: row-reverse;
+}
+.new_wrapper .container .reversed .reversed_info{
+    transform: translateX(-98px);
+}
+.new_wrapper .container .reversed .reversed_picture{
+transform: translateX(-30px);
+}
+.new_wrapper .container .reversed_bottom{
+    padding: 0;
+}
+
+            /*New*/
+
+
+
+
+
 /*new_2*/
 
 .new2_wrapper{
@@ -1548,3 +1645,4 @@ header{
     margin-left: 16px;
 }
 /*footer*/
+
