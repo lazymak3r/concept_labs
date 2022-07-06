@@ -1,12 +1,12 @@
-@media screen and (max-width: 1567px) {
-    .main_wrapper .main_header_background .container {
-        padding-left: 60px;
-    }
-}
-
 @media screen and (max-width: 1750px){
     .project2_wrapper .project2_container .project2_bottom_section_wrapper .project2_bottom_slide_img:nth-child(5){
         display: none;
+    }
+}
+
+@media screen and (max-width: 1567px) {
+    .main_wrapper .main_header_background .container {
+        padding-left: 60px;
     }
 }
 
