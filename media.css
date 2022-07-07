@@ -63,7 +63,9 @@
     .new_wrapper .container .new_top_section .new_top_info{
         padding: 50px 0 0 0 ;
     }
-
+    .new_wrapper .container  .transform div{
+      max-width: 1213px !important;
+    }
     .new_wrapper .container .reversed{
     padding-left: 30px ;
     }
@@ -73,7 +75,50 @@
     }
 }
 
+@media screen and (max-width: 1110px) {
+    .services_wrapper .picture_title{
+        padding-bottom: 50px;
+    }
+}
+
+
 @media screen and (max-width: 1024px) {
+    .white_line{
+        display: none;
+    }
+    .services_wrapper .picture_title{
+        padding-bottom: 80px;
+    }
+    .services_wrapper .container .services_title_block{
+        border: none;
+        padding: 20px 0;
+        text-align: center;
+    }
+    .services_wrapper .container {
+        align-items: center;
+        flex-direction: column;
+    }
+    .services_wrapper .services_bg_wrapper{
+        margin-bottom: 1500px;
+
+    }
+    .services_wrapper .services_bg_wrapper .container .services_left_img_block,
+    .services_wrapper .services_bg_wrapper .container .services_right_img_block {
+        max-width: initial;
+        width: 100%;
+        transform: translateY(-100px);
+    }
+    .services_wrapper .services_bg_wrapper .container .services_left_img_block .left_2,
+    .services_wrapper .services_bg_wrapper .container .services_left_img_block .left_1,
+    .services_wrapper .services_bg_wrapper .container .services_right_img_block .right_1,
+    .services_wrapper .services_bg_wrapper .container .services_right_img_block .right_2
+    {
+        background-size: cover;
+    }
+    .services_wrapper .services_bg_wrapper .container .services_right_img_block{
+        transform: none;
+        padding:0 0 30px 0;
+    }
 
     .new_wrapper .container{
         padding: 0 30px;
@@ -605,6 +650,16 @@
 }
 
 @media screen and (max-width: 768px) {
+    .services_wrapper .container .services_title_block .heading-1{
+        font-size: 40px;
+    }
+    .services_wrapper .picture_title{
+        font-size: 25px;
+    }
+    .services_wrapper .services_link{
+        font-size: 15px;
+    }
+
     .new_wrapper .container .new_title .heading-1 {
         font-size: 40px;
     }
