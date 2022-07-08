@@ -1316,11 +1316,12 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    overflow-x: hidden;
+    overflow: hidden;
+    margin-bottom: -265px;
 }
 .project2_container{
      margin: 0 111px;
-     padding: 0 ;
+     padding: 0;
      max-width: 1602px;
 }
 .project2_wrapper .project2_container .project2_top{
@@ -1461,9 +1462,11 @@
     overflow: hidden;
 }
 .new_wrapper .container .new_title{
-    max-width: 1070px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1125px;
     padding-left: 98px;
-    border-right:var(--border);
+    padding-right: 55px;
 }
 .new_wrapper .container .new_top_section{
     display: flex;
