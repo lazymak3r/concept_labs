@@ -67,7 +67,7 @@
       max-width: 1213px !important;
     }
     .new_wrapper .container .reversed{
-    padding-left: 30px ;
+        justify-content: left;
     }
 
     .new_wrapper .container .reversed .reversed_info{
@@ -603,6 +603,7 @@
         flex-direction: column;
     }
     .project2_wrapper .project2_container .project2_middle .project2_middle_picture{
+        padding: 0;
         width: 100%;
         max-width: initial;
     }
@@ -636,14 +637,14 @@
         width: 100%;
         display: flex;
         padding: 0 !important;
+        justify-content: space-around !important;
     }
-    .project2_wrapper .project2_container .project2_bottom_section_wrapper .bottom_block .project2_left_arrow{
-        padding-left: 0 !important;
-    }
+
     .project2_wrapper .project2_container .project2_bottom_section_wrapper .project2_bottom_slide_img:nth-child(2){
         max-width: initial;
         width: 100%;
         min-width: 200px;
+        padding: 0 10px;
     }
     .project2_wrapper .project2_container .project2_bottom_section_wrapper .project2_bottom_slide_img:nth-child(3){
         display: none;
