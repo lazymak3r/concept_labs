@@ -39,7 +39,7 @@
 
     .project2_wrapper .project2_container{
         margin: 0;
-        padding: 0 60px;
+        padding: 0 30px;
     }
     .project2_wrapper .project2_container .project2_top,
     .project2_wrapper .project2_container .project2_middle .red-line > div
@@ -137,6 +137,8 @@
     .new_wrapper .container .new_title{
         border: none;
         padding-bottom: 30px;
+        padding-left: 0;
+        padding-top: 16px;
     }
     .new_wrapper .container .new_top_section{
         flex-direction: column;
@@ -578,7 +580,7 @@
         width: 100%;
         border: none;
         margin: 0 !important;
-        padding: 0 60px!important;
+        padding: 0!important;
     }
     .project2_wrapper .project2_container .project2_top .top_section1{
         display: flex;
@@ -596,6 +598,9 @@
         width: 100%;
         margin: 0 !important;
         padding: 16px 0;
+    }
+    .project2_wrapper .project2_container .project2_top .top_section1 .red_cuadro_wrapper {
+        max-width: initial;
     }
     .project2_wrapper .project2_container .project2_top .top_section1 .red_cuadro_wrapper .red_cuadro {
         background: none;
@@ -688,6 +693,10 @@
         font-size: 20px;
     }{
         font-size: 20px;
+    }
+    .new2_wrapper .new2_wrapper_title > h1,
+    .projects_wrapper .heading-1{
+        font-size: 25px;
     }
     .main_wrapper .main_header_background .main-header .main_header_middle .header_middle_title{
         font-size: 20px;
