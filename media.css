@@ -663,7 +663,7 @@
 
 @media screen and (max-width: 768px) {
     .services_wrapper .container .services_title_block .heading-1{
-        font-size: 40px;
+        font-size: 30px;
     }
     .services_wrapper .picture_title{
         font-size: 25px;
@@ -672,6 +672,10 @@
         font-size: 15px;
     }
 
+    .new_wrapper .container .new_title{
+        padding: 20px 0;
+        justify-content: center;
+    }
     .new_wrapper .container .new_title .heading-1 {
         font-size: 40px;
     }
